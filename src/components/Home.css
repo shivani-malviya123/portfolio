@@ -1,0 +1,21 @@
+.home-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 60px 0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.highlight {
+  color: #ffc107;
+}
+
+.btn-hover:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
