@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <section id="contact">
-      <h2>Contact Me</h2>
+      <h2 className="text-center text-white " style={{ marginTop: "50px", marginBottom: "50px" }}>Contact Me</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
         <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
