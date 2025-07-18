@@ -150,19 +150,6 @@ const About = () => {
               className="img-fluid rounded-circle about-img"
             />
           </Col>
-          <Col md={8}>
-            {/* <h2>About Me</h2> */}
-            <p>
-              Hi, I'm <strong>Shivani Malviya</strong> 👩‍💻 — a passionate, self-taught web developer and currently a student, on a journey to become a <strong>MERN Stack Developer</strong>.
-            </p>
-            <p>
-              I'm actively learning <strong>MongoDB, Express, React</strong>, and <strong>Node.js</strong>, and enjoy building full-stack web applications. I love solving problems, improving user experiences, and writing clean and maintainable code.
-            </p>
-            <p>
-              Currently, I'm focused on strengthening my frontend skills using <strong>React</strong> and <strong>Bootstrap</strong>, while exploring backend technologies like <strong>Node.js</strong> and <strong>Express.js</strong>.
-            </p>
-            <p>🚀 Always curious to learn, build, and grow as a developer.</p>
-          </Col>
         </Row>
       </Container>
     </section>
